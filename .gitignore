@@ -1,0 +1,8 @@
+*.pyc
+.DS_Store
+__pycache__/
+*.mo
+*.egg-info/
+build/
+dist/
+.ruff_cache/

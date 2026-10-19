@@ -1,0 +1,16 @@
+<setupxml>
+	<setup key="Jukebox" title="Jukebox Setup">
+		<item text="Play last used songlist after starting" description="Resume the saved playlist when opening the player.">config.plugins.jukebox.resumePlaylist</item>
+		<item text="Filebrowser startup path" description="Press OK to choose the music folder.">config.plugins.jukebox.musicFolder</item>
+		<item text="Remember last path of filebrowser">config.plugins.jukebox.rememberFolder</item>
+		<item text="Show cover art" description="Show embedded artwork, images in the music folder and downloaded album covers.">config.plugins.jukebox.showCover</item>
+		<item text="Download missing covers" description="Search MusicBrainz and the Cover Art Archive using artist and album tags. Music files are never modified." requires="config.plugins.jukebox.showCover">config.plugins.jukebox.onlineCovers</item>
+		<item text="Cover cache folder" description="Downloaded covers are stored here and remain available after a reboot.">config.plugins.jukebox.coverCache</item>
+		<item text="Search online for missing lyrics" description="Look up missing lyrics on LRCLIB using artist, title, album and duration. Results are cached in the music database folder; music files are not changed.">config.plugins.jukebox.onlineLyrics</item>
+		<item text="Activate screensaver">config.plugins.jukebox.screenSaver</item>
+		<item text="Wait for screensaver (in min)" requires="config.plugins.jukebox.screenSaver">config.plugins.jukebox.screenSaverDelay</item>
+		<item text="music library path" description="Press OK to select a writable folder for the music database.">config.plugins.jukebox.databasePath</item>
+		<item text="Show Jukebox in extensions menu">config.plugins.jukebox.playerInExtensions</item>
+		<item text="Show Jukebox in main menu">config.plugins.jukebox.playerInMainMenu</item>
+	</setup>
+</setupxml>

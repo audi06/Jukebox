@@ -1,0 +1,178 @@
+<skin>
+	<screen name="JukeboxPlayer" title="Jukebox" position="center,center" size="1280,720" resolution="1280,720" backgroundColor="#00101716" flags="wfNoBorder">
+		<ePixmap position="0,0" size="1280,720" pixmap="@asset:jukebox-player.svg" zPosition="-1" scale="1" />
+		<widget name="headertext" position="440,35" size="400,55" font="Regular;42" foregroundColor="#00f9e7bd" backgroundColor="@background" transparent="1" halign="center" />
+		<widget source="global.CurrentTime" render="Label" position="922,88" size="208,23" font="Regular;18" foregroundColor="#00f2dba8" halign="right" valign="center" noWrap="1" transparent="1">
+			<convert type="ClockToText" />
+		</widget>
+		<widget name="coverArt" position="149,158" size="314,314" alphatest="blend" scale="1" />
+		<widget name="PositionGauge" position="0,0" size="0,0" />
+		<widget name="repeat" position="0,0" size="0,0" />
+		<widget name="shuffle" position="0,0" size="0,0" />
+		<widget name="dvrStatus" position="0,0" size="0,0" />
+		<widget name="title" position="519,161" size="600,78" font="Regular;31" foregroundColor="#00291f18" backgroundColor="@background" transparent="1" />
+		<widget name="artist" position="519,277" size="600,43" font="Regular;27" foregroundColor="#00291f18" backgroundColor="@background" transparent="1" />
+		<widget name="album" position="519,356" size="600,38" font="Regular;24" foregroundColor="#00291f18" backgroundColor="@background" transparent="1" />
+		<widget name="genre" position="504,413" size="630,30" font="Regular;19" foregroundColor="@foreground" backgroundColor="@background" transparent="1" />
+		<widget name="details" position="504,445" size="630,45" font="Regular;18" foregroundColor="@foreground" backgroundColor="@background" transparent="1" />
+		<widget name="playbackState" position="504,491" size="220,28" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" />
+		<widget name="playbackMode" position="728,491" size="406,28" font="Regular;19" foregroundColor="@foreground" backgroundColor="@background" transparent="1" halign="right" />
+		<widget source="session.CurrentService" render="Label" position="504,522" size="110,25" font="Regular;20" halign="left" transparent="1">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1024,522" size="110,25" font="Regular;20" halign="right" transparent="1">
+			<convert type="ServicePosition">Length</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Progress" position="632,530" size="380,7" foregroundColor="@accent" backgroundColor="@selection" borderWidth="0">
+			<convert type="ServicePosition">Position</convert>
+		</widget>
+		<widget name="nextTitle" position="270,550" size="850,28" font="Regular;19" foregroundColor="@foreground" backgroundColor="@background" transparent="1" noWrap="1" />
+		<eLabel position="143,630" size="8,31" backgroundColor="#00df5a43" />
+		<widget source="key_red" render="Label" position="163,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="323,630" size="8,31" backgroundColor="#005dbb86" />
+		<widget source="key_green" render="Label" position="343,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="503,630" size="8,31" backgroundColor="#00e8bc57" />
+		<widget source="key_yellow" render="Label" position="523,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="683,630" size="8,31" backgroundColor="#004b9fb3" />
+		<widget source="key_blue" render="Label" position="703,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<widget source="nowPlaying" render="Label" position="150,88" size="265,23" font="Regular;18" foregroundColor="#00f2dba8" valign="center" noWrap="1" transparent="1" />
+		<widget source="upNext" render="Label" position="150,550" size="115,28" font="Regular;17" foregroundColor="#00cda96c" transparent="1" />
+		<widget source="playlistHint" render="Label" position="883,625" size="255,40" font="Regular;18" foregroundColor="@accent" transparent="1" valign="center" noWrap="1" />
+	</screen>
+	<screen name="JukeboxFileList" title="Jukebox" position="center,center" size="1280,720" resolution="1280,720" backgroundColor="#00101716" flags="wfNoBorder">
+		<ePixmap position="0,0" size="1280,720" pixmap="@asset:jukebox-library.svg" zPosition="-1" scale="1" />
+		<widget name="headertext" position="150,145" size="980,36" font="Regular;24" foregroundColor="@foreground" backgroundColor="@background" transparent="1" noWrap="1" />
+		<widget name="list" position="150,192" size="980,360" scrollbarMode="showOnDemand" foregroundColor="@foreground" backgroundColor="@background" foregroundColorSelected="@selectedText" backgroundColorSelected="@selection" font="Regular;24" itemHeight="40" />
+		<eLabel position="143,630" size="8,31" backgroundColor="#00df5a43" />
+		<widget source="key_red" render="Label" position="163,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="323,630" size="8,31" backgroundColor="#005dbb86" />
+		<widget source="key_green" render="Label" position="343,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="503,630" size="8,31" backgroundColor="#00e8bc57" />
+		<widget source="key_yellow" render="Label" position="523,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="683,630" size="8,31" backgroundColor="#004b9fb3" />
+		<widget source="key_blue" render="Label" position="703,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel text="Jukebox" position="440,35" size="400,55" font="Regular;42" halign="center" foregroundColor="#00f9e7bd" transparent="1" />
+		<widget source="playlistHint" render="Label" position="883,625" size="255,40" font="Regular;18" foregroundColor="@accent" transparent="1" valign="center" noWrap="1" />
+	</screen>
+	<screen name="JukeboxLibrary" title="Jukebox Library" position="center,center" size="1280,720" resolution="1280,720" backgroundColor="#00101716" flags="wfNoBorder">
+		<ePixmap position="0,0" size="1280,720" pixmap="@asset:jukebox-library.svg" zPosition="-1" scale="1" />
+		<widget name="headertext" position="150,145" size="980,36" font="Regular;24" foregroundColor="@foreground" backgroundColor="@background" transparent="1" noWrap="1" />
+		<widget name="list" position="150,192" size="980,360" scrollbarMode="showOnDemand" foregroundColor="@foreground" backgroundColor="@background" foregroundColorSelected="@selectedText" backgroundColorSelected="@selection" itemHeight="40" font="Regular;24" />
+		<eLabel position="143,630" size="8,31" backgroundColor="#00df5a43" />
+		<widget source="key_red" render="Label" position="163,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="323,630" size="8,31" backgroundColor="#005dbb86" />
+		<widget source="key_green" render="Label" position="343,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="503,630" size="8,31" backgroundColor="#00e8bc57" />
+		<widget source="key_yellow" render="Label" position="523,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="683,630" size="8,31" backgroundColor="#004b9fb3" />
+		<widget source="key_blue" render="Label" position="703,625" size="155,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel text="Jukebox" position="440,35" size="400,55" font="Regular;42" halign="center" foregroundColor="#00f9e7bd" transparent="1" />
+		<widget source="menuHint" render="Label" position="883,625" size="255,40" font="Regular;18" foregroundColor="@accent" transparent="1" valign="center" noWrap="1" />
+	</screen>
+	<screen name="JukeboxSongList" title="Playlist editor" position="center,center" size="1280,720" resolution="1280,720" backgroundColor="#00101716" flags="wfNoBorder">
+		<ePixmap position="0,0" size="1280,720" pixmap="@asset:jukebox-library.svg" zPosition="-1" scale="1" />
+		<widget name="headertext" position="150,145" size="980,36" font="Regular;24" foregroundColor="@foreground" backgroundColor="@background" transparent="1" noWrap="1" />
+		<widget name="list" position="150,192" size="980,360" scrollbarMode="showOnDemand" foregroundColor="@foreground" backgroundColor="@background" foregroundColorSelected="@selectedText" backgroundColorSelected="@selection" itemHeight="40" font="Regular;24" />
+		<eLabel text="Jukebox" position="440,35" size="400,55" font="Regular;42" halign="center" foregroundColor="#00f9e7bd" transparent="1" />
+		<eLabel position="143,630" size="8,31" backgroundColor="#00df5a43" />
+		<widget source="key_red" render="Label" position="163,625" size="120,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="283,630" size="8,31" backgroundColor="#005dbb86" />
+		<widget source="key_green" render="Label" position="303,625" size="120,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="423,630" size="8,31" backgroundColor="#00e8bc57" />
+		<widget source="key_yellow" render="Label" position="443,625" size="100,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="543,630" size="8,31" backgroundColor="#004b9fb3" />
+		<widget source="key_blue" render="Label" position="563,625" size="120,40" font="Regular;20" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<widget source="playlistHint" render="Label" position="713,625" size="425,40" font="Regular;18" foregroundColor="@accent" transparent="1" valign="center" noWrap="1" />
+	</screen>
+	<screen name="JukeboxTags" title="Tags / Lyrics" position="center,center" size="1280,720" resolution="1280,720" backgroundColor="#00101716" flags="wfNoBorder">
+		<ePixmap position="0,0" size="1280,720" pixmap="@asset:jukebox-library.svg" zPosition="-1" scale="1" />
+		<widget name="headertext" position="150,145" size="980,36" font="Regular;24" foregroundColor="@foreground" backgroundColor="@background" transparent="1" noWrap="1" />
+		<widget name="resulttext" position="150,190" size="980,36" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" />
+		<widget name="lyric_text" position="150,232" size="980,320" font="Regular;23" foregroundColor="@foreground" backgroundColor="@background" transparent="1" />
+		<eLabel position="143,630" size="8,31" backgroundColor="#00df5a43" />
+		<widget source="key_red" render="Label" position="163,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="393,630" size="8,31" backgroundColor="#005dbb86" />
+		<widget source="key_green" render="Label" position="413,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="643,630" size="8,31" backgroundColor="#00e8bc57" />
+		<widget source="key_yellow" render="Label" position="663,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel text="Jukebox" position="440,35" size="400,55" font="Regular;42" halign="center" foregroundColor="#00f9e7bd" transparent="1" />
+		<widget name="previousLine" position="150,246" size="980,76" font="Regular;25" foregroundColor="#0088a79b" halign="center" valign="center" transparent="1" />
+		<widget name="currentLine" position="150,330" size="980,108" font="Regular;34" foregroundColor="@accent" halign="center" valign="center" transparent="1" />
+		<widget name="nextLine" position="150,446" size="980,76" font="Regular;25" foregroundColor="#0088a79b" halign="center" valign="center" transparent="1" />
+		<widget source="key_blue" render="Label" position="913,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="893,630" size="8,31" backgroundColor="#004b9fb3" />
+	</screen>
+	<screen name="JukeboxPath" title="Select path" position="center,center" size="1280,720" resolution="1280,720" backgroundColor="#00101716" flags="wfNoBorder">
+		<ePixmap position="0,0" size="1280,720" pixmap="@asset:jukebox-library.svg" zPosition="-1" scale="1" />
+		<widget name="target" position="150,145" size="980,36" font="Regular;24" foregroundColor="@foreground" backgroundColor="@background" transparent="1" noWrap="1" />
+		<widget name="filelist" position="150,192" size="980,360" font="Regular;24" itemHeight="40" scrollbarMode="showOnDemand" foregroundColor="@foreground" backgroundColor="@background" foregroundColorSelected="@selectedText" backgroundColorSelected="@selection" />
+		<eLabel position="143,630" size="8,31" backgroundColor="#00df5a43" />
+		<widget source="key_red" render="Label" position="163,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="393,630" size="8,31" backgroundColor="#005dbb86" />
+		<widget source="key_green" render="Label" position="413,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel text="Jukebox" position="440,35" size="400,55" font="Regular;42" halign="center" foregroundColor="#00f9e7bd" transparent="1" />
+	</screen>
+	<screen name="JukeboxScanner" title="Scan music" position="center,center" size="1280,720" resolution="1280,720" backgroundColor="#00101716" flags="wfNoBorder">
+		<ePixmap position="0,0" size="1280,720" pixmap="@asset:jukebox-library.svg" zPosition="-1" scale="1" />
+		<widget name="output" position="150,160" size="980,390" font="Regular;28" foregroundColor="@foreground" backgroundColor="@background" transparent="1" />
+		<eLabel position="143,630" size="8,31" backgroundColor="#00df5a43" />
+		<widget source="key_red" render="Label" position="163,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="393,630" size="8,31" backgroundColor="#005dbb86" />
+		<widget source="key_green" render="Label" position="413,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel text="Jukebox" position="440,35" size="400,55" font="Regular;42" halign="center" foregroundColor="#00f9e7bd" transparent="1" />
+	</screen>
+	<screen name="JukeboxScreenSaver" position="0,0" size="1280,720" resolution="1280,720" flags="wfNoBorder" backgroundColor="#00070909">
+		<widget name="cabinet" zPosition="0" position="0,0" size="900,380" pixmap="@asset:jukebox-saver.svg" alphatest="blend" scale="1" />
+		<widget name="coverArt" zPosition="1" position="42,54" size="272,272" alphatest="blend" scale="1" />
+		<widget name="brand" zPosition="1" position="382,38" size="440,52" font="Regular;34" foregroundColor="#00d2b57c" transparent="1" />
+		<widget name="nowPlaying" zPosition="1" position="384,99" size="440,25" font="Regular;16" foregroundColor="#007baa99" transparent="1" />
+		<widget name="display" zPosition="1" position="382,135" size="470,86" font="Regular;30" foregroundColor="#00e6dcc5" transparent="1" />
+		<widget name="artist" zPosition="1" position="384,237" size="468,38" font="Regular;23" foregroundColor="#00c9b98f" transparent="1" />
+		<widget name="album" zPosition="1" position="384,282" size="468,54" font="Regular;18" foregroundColor="#0095a69c" transparent="1" />
+	</screen>
+	<screen name="JukeboxTV" position="0,0" size="1280,720" resolution="1280,720" flags="wfNoBorder" backgroundColor="transparent">
+		<widget name="video" position="0,0" size="1280,720" zPosition="0" />
+		<widget name="coverArt" position="30,570" size="120,120" zPosition="2" alphatest="blend" scale="1" />
+		<widget name="display" position="180,625" size="1050,65" font="Regular;26" backgroundColor="#33000000" foregroundColor="@foreground" zPosition="2" />
+	</screen>
+	<screen name="JukeboxSetup" title="Jukebox Setup" position="center,center" size="1280,720" resolution="1280,720" backgroundColor="#00101716" flags="wfNoBorder">
+		<ePixmap position="0,0" size="1280,720" pixmap="@asset:jukebox-library.svg" zPosition="-1" scale="1" />
+		<eLabel position="143,630" size="8,31" backgroundColor="#00df5a43" />
+		<widget source="key_red" render="Label" position="163,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="393,630" size="8,31" backgroundColor="#005dbb86" />
+		<widget source="key_green" render="Label" position="413,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="643,630" size="8,31" backgroundColor="#00e8bc57" />
+		<widget source="key_yellow" render="Label" position="663,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel text="Jukebox" position="440,35" size="400,55" font="Regular;42" halign="center" foregroundColor="#00f9e7bd" transparent="1" />
+		<widget name="config" position="150,150" size="980,320" font="Regular;22" itemHeight="40" foregroundColor="#00f4e6c8" backgroundColor="#00132c29" foregroundColorSelected="#00fff4d8" backgroundColorSelected="#00813c2c" scrollbarMode="showOnDemand" valueFont="Regular;20" />
+		<widget name="description" position="150,486" size="980,70" font="Regular;20" foregroundColor="#00d9c39b" transparent="1" />
+		<widget name="footnote" position="150,563" size="980,25" font="Regular;17" foregroundColor="#00d9c39b" transparent="1" />
+	</screen>
+	<screen name="JukeboxTagEditor" title="Edit tags" position="center,center" size="1280,720" resolution="1280,720" backgroundColor="#00101716" flags="wfNoBorder">
+		<ePixmap position="0,0" size="1280,720" pixmap="@asset:jukebox-library.svg" zPosition="-1" scale="1" />
+		<eLabel position="143,630" size="8,31" backgroundColor="#00df5a43" />
+		<widget source="key_red" render="Label" position="163,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="393,630" size="8,31" backgroundColor="#005dbb86" />
+		<widget source="key_green" render="Label" position="413,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel text="Jukebox" position="440,35" size="400,55" font="Regular;42" halign="center" foregroundColor="#00f9e7bd" transparent="1" />
+		<widget source="editorTitle" render="Label" position="150,140" size="980,26" font="Regular;23" foregroundColor="@accent" transparent="1" />
+		<widget source="fileName" render="Label" position="150,169" size="980,22" font="Regular;17" foregroundColor="@foreground" noWrap="1" transparent="1" />
+		<widget name="config" position="150,192" size="980,280" font="Regular;22" itemHeight="40" foregroundColor="#00f4e6c8" backgroundColor="#00132c29" foregroundColorSelected="#00fff4d8" backgroundColorSelected="#00813c2c" scrollbarMode="showOnDemand" valueFont="Regular;20" />
+		<widget name="description" position="150,486" size="980,70" font="Regular;20" foregroundColor="#00d9c39b" transparent="1" />
+		<widget name="footnote" position="150,563" size="980,25" font="Regular;17" foregroundColor="#00d9c39b" transparent="1" />
+	</screen>
+	<screen name="JukeboxPlaylistFiles" title="Playlists" position="center,center" size="1280,720" resolution="1280,720" backgroundColor="#00101716" flags="wfNoBorder">
+		<ePixmap position="0,0" size="1280,720" pixmap="@asset:jukebox-library.svg" zPosition="-1" scale="1" />
+		<widget name="target" position="150,145" size="980,36" font="Regular;24" foregroundColor="@foreground" backgroundColor="@background" transparent="1" noWrap="1" />
+		<widget name="filelist" position="150,192" size="980,360" font="Regular;24" itemHeight="40" scrollbarMode="showOnDemand" foregroundColor="@foreground" backgroundColor="@background" foregroundColorSelected="@selectedText" backgroundColorSelected="@selection" />
+		<eLabel text="Jukebox" position="440,35" size="400,55" font="Regular;42" halign="center" foregroundColor="#00f9e7bd" transparent="1" />
+		<eLabel position="143,630" size="8,31" backgroundColor="#00df5a43" />
+		<widget source="key_red" render="Label" position="163,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="393,630" size="8,31" backgroundColor="#005dbb86" />
+		<widget source="key_green" render="Label" position="413,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="643,630" size="8,31" backgroundColor="#00e8bc57" />
+		<widget source="key_yellow" render="Label" position="663,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+		<eLabel position="893,630" size="8,31" backgroundColor="#004b9fb3" />
+		<widget source="key_blue" render="Label" position="913,625" size="225,40" font="Regular;22" foregroundColor="@foreground" backgroundColor="@background" transparent="1" valign="center" noWrap="1" />
+	</screen>
+</skin>

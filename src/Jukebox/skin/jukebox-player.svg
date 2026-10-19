@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1280 720"><defs>
+<linearGradient id="chrome" x1="0%" y1="0%" x2="100%" y2="100%"><stop stop-color="#fff8db"/><stop offset=".22" stop-color="#747c78"/><stop offset=".4" stop-color="#f7f9e9"/><stop offset=".53" stop-color="#485754"/><stop offset=".77" stop-color="#d5dfd3"/><stop offset="1" stop-color="#7b8981"/></linearGradient>
+<linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="0%"><stop stop-color="#271814"/><stop offset=".22" stop-color="#6e3827"/><stop offset=".48" stop-color="#381c17"/><stop offset=".8" stop-color="#6b3728"/><stop offset="1" stop-color="#211916"/></linearGradient>
+<linearGradient id="tube" x1="0%" y1="0%" x2="100%" y2="0%"><stop stop-color="#d8913f"/><stop offset=".2" stop-color="#f9e7a5"/><stop offset=".5" stop-color="#fff7d2"/><stop offset=".8" stop-color="#f9d787"/><stop offset="1" stop-color="#c97e32"/></linearGradient>
+<linearGradient id="mint" x1="0%" y1="0%" x2="100%" y2="0%"><stop stop-color="#257f76"/><stop offset=".22" stop-color="#90d8bd"/><stop offset=".5" stop-color="#d5f4d4"/><stop offset=".8" stop-color="#81c9b1"/><stop offset="1" stop-color="#24685e"/></linearGradient>
+<linearGradient id="paper" x1="0%" y1="0%" x2="0%" y2="100%"><stop stop-color="#faf2d9"/><stop offset="1" stop-color="#dfcfaa"/></linearGradient>
+</defs><rect width="1280" height="720" fill="#101716"/>
+<rect x="18" y="10" width="1244" height="700" rx="116" fill="url(#chrome)"/>
+<rect x="25" y="17" width="1230" height="686" rx="111" fill="url(#wood)"/>
+<path d="M52 652 V176 Q52 42 186 42 H1094 Q1228 42 1228 176 V652" fill="none" stroke="#271e19" stroke-width="40"/>
+<path d="M52 652 V176 Q52 42 186 42 H1094 Q1228 42 1228 176 V652" fill="none" stroke="url(#tube)" stroke-width="30"/>
+<path d="M84 652 V178 Q84 74 188 74 H1092 Q1196 74 1196 178 V652" fill="none" stroke="#172c27" stroke-width="24"/>
+<path d="M84 652 V178 Q84 74 188 74 H1092 Q1196 74 1196 178 V652" fill="none" stroke="url(#mint)" stroke-width="14"/>
+<rect x="110" y="114" width="1060" height="480" rx="24" fill="url(#chrome)"/>
+<rect x="116" y="120" width="1048" height="468" rx="20" fill="#132c29"/>
+<rect x="430" y="22" width="420" height="79" rx="36" fill="url(#chrome)"/>
+<rect x="438" y="29" width="404" height="65" rx="29" fill="#80392c"/>
+
+<rect x="112" y="608" width="1056" height="78" rx="18" fill="url(#chrome)"/>
+<rect x="119" y="615" width="1042" height="64" rx="13" fill="#243b35"/>
+<rect x="38" y="220" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="38" y="500" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="38" y="640" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="66" y="220" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="66" y="500" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="66" y="640" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="1184" y="220" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="1184" y="500" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="1184" y="640" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="1212" y="220" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="1212" y="500" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="1212" y="640" width="28" height="12" rx="3" fill="url(#chrome)"/>
+<rect x="133" y="142" width="346" height="346" rx="10" fill="url(#chrome)"/>
+<rect x="141" y="150" width="330" height="330" fill="#0b1715"/>
+<rect x="497" y="144" width="644" height="109" rx="8" fill="url(#chrome)"/>
+<rect x="503" y="150" width="632" height="97" rx="5" fill="url(#paper)"/>
+<rect x="497" y="265" width="644" height="66" rx="8" fill="url(#chrome)"/>
+<rect x="503" y="271" width="632" height="54" rx="5" fill="url(#paper)"/>
+<rect x="497" y="343" width="644" height="62" rx="8" fill="url(#chrome)"/>
+<rect x="503" y="349" width="632" height="50" rx="5" fill="url(#paper)"/>
+<path d="M504 522 H1134" stroke="#8c9b7c" stroke-width="1"/>
+<rect x="139" y="550" width="996" height="28" rx="5" fill="#203e36"/>
+</svg>

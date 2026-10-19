@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+	<screen name="landscape" position="0,0" size="400,240" resolution="400,240" flags="wfNoBorder" backgroundColor="#00132c29">
+		<widget source="Brand" render="Label" transparent="1" position="8,2" size="230,28" font="Regular;22" foregroundColor="#00eacb80" />
+		<widget source="global.CurrentTime" render="Label" transparent="1" position="300,2" size="92,28" font="Regular;22" halign="right"><convert type="ClockToText">Default</convert></widget>
+		<widget name="coverArt" position="8,38" size="152,152" alphatest="blend" scale="1" />
+		<widget source="Title" render="Label" transparent="1" position="172,34" size="220,66" font="Regular;25" valign="center" foregroundColor="#00fff4d8" />
+		<widget source="Artist" render="Label" transparent="1" position="172,102" size="220,54" font="Regular;22" valign="center" />
+		<widget source="Album" render="Label" transparent="1" position="172,158" size="220,40" font="Regular;17" valign="center" foregroundColor="#00eacb80" />
+		<widget source="PlaybackState" render="Label" transparent="1" position="8,200" size="150,26" font="Regular;20" />
+		<widget source="session.CurrentService" render="Label" transparent="1" position="165,200" size="227,26" font="Regular;20" halign="right"><convert type="ServicePosition">VFDPosition,ShowHours</convert></widget>
+		<widget source="session.CurrentService" render="Progress" position="8,230" size="384,5" foregroundColor="#00eacb80" backgroundColor="#00334b45"><convert type="ServicePosition">Position</convert></widget>
+	</screen>
+	<screen name="portrait" position="0,0" size="240,320" resolution="240,320" flags="wfNoBorder" backgroundColor="#00132c29">
+		<widget source="Brand" render="Label" transparent="1" position="6,0" size="140,24" font="Regular;18" foregroundColor="#00eacb80" />
+		<widget source="global.CurrentTime" render="Label" transparent="1" position="150,0" size="84,24" font="Regular;18" halign="right"><convert type="ClockToText">Default</convert></widget>
+		<widget name="coverArt" position="45,27" size="150,150" alphatest="blend" scale="1" />
+		<widget source="Title" render="Label" transparent="1" position="6,181" size="228,48" font="Regular;20" halign="center" valign="center" foregroundColor="#00fff4d8" />
+		<widget source="Artist" render="Label" transparent="1" position="6,232" size="228,25" font="Regular;18" halign="center" noWrap="1" />
+		<widget source="Album" render="Label" transparent="1" position="6,258" size="228,22" font="Regular;16" halign="center" noWrap="1" foregroundColor="#00eacb80" />
+		<widget source="PlaybackState" render="Label" transparent="1" position="6,282" size="105,25" font="Regular;18" />
+		<widget source="session.CurrentService" render="Label" transparent="1" position="112,282" size="122,25" font="Regular;18" halign="right"><convert type="ServicePosition">VFDPosition,ShowHours</convert></widget>
+		<widget source="session.CurrentService" render="Progress" position="6,310" size="228,5" foregroundColor="#00eacb80"><convert type="ServicePosition">Position</convert></widget>
+	</screen>
+	<screen name="compact" position="0,0" size="132,64" resolution="132,64" flags="wfNoBorder">
+		<widget source="Title" render="Label" transparent="1" position="0,0" size="132,32" font="Regular;14" halign="center" valign="center" />
+		<widget source="Artist" render="Label" transparent="1" position="0,33" size="132,15" font="Regular;12" halign="center" noWrap="1" />
+		<widget source="PlaybackState" render="Label" transparent="1" position="0,49" size="60,12" font="Regular;10" />
+		<widget source="session.CurrentService" render="Label" transparent="1" position="60,49" size="72,12" font="Regular;10" halign="right"><convert type="ServicePosition">Position</convert></widget>
+		<widget source="session.CurrentService" render="Progress" position="0,62" size="132,2"><convert type="ServicePosition">Position</convert></widget>
+	</screen>
+	<screen name="browser" position="0,0" size="132,64" resolution="132,64" flags="wfNoBorder">
+		<widget source="ScreenTitle" render="Label" transparent="1" position="0,0" size="132,13" font="Regular;10" halign="center" noWrap="1" />
+		<widget source="PreviousTitle" render="Label" transparent="1" position="0,14" size="132,11" font="Regular;9" halign="center" noWrap="1" />
+		<widget source="Title" render="Label" transparent="1" position="0,26" size="132,25" font="Regular;12" halign="center" valign="center" />
+		<widget source="NextTitle" render="Label" transparent="1" position="0,52" size="132,12" font="Regular;9" halign="center" noWrap="1" />
+	</screen>
+</skin>
