@@ -1720,7 +1720,6 @@ class JukeboxPlaylistFiles(Screen):
 				self.session.open(MessageBox, _("Enter a filename ending in .e2pls or .m3u, without folder separators."), type=MessageBox.TYPE_ERROR)
 
 
-
 class JukeboxLibrary(Screen):
 	def __init__(self, session, serviceList, owner=None):
 		self.session = session
