@@ -1,0 +1,859 @@
+# Turkish translations for Jukebox.
+# This file is distributed under the same license as the Jukebox package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Jukebox\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-19 22:14+0200\n"
+"PO-Revision-Date: 2026-10-20 10:31+0300\n"
+"Last-Translator: audi06_19 <info@dreamosat-forum.com>\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.10\n"
+
+#: ../plugin.py:156
+#, python-format
+msgid ""
+"%d files added to database!\n"
+"Press OK to close."
+msgstr ""
+"Veritabanına %d dosya eklendi!\n"
+"Kapatmak için OK tuşuna basın."
+
+#: ../plugin.py:149
+#, python-format
+msgid ""
+"%s\n"
+" added to database"
+msgstr ""
+"%s\n"
+" veritabanına eklendi"
+
+#: ../plugin.py:2767 ../plugin.py:3485
+#, python-format
+msgid ""
+"%s\n"
+"appended to songlist"
+msgstr ""
+"%s\n"
+"şarkı listesinin sonuna eklendi"
+
+#: ../plugin.py:2777 ../plugin.py:3496
+#, python-format
+msgid ""
+"%s\n"
+"inserted and will be played as next song"
+msgstr ""
+"%s\n"
+"listeye eklendi ve sıradaki şarkı olarak çalınacak"
+
+#: ../setup.xml
+msgid "Activate screensaver"
+msgstr "Ekran koruyucuyu etkinleştir"
+
+#: ../plugin.py:1849 ../plugin.py:1863
+msgid "Add all songs from selected album to a playlist"
+msgstr "Seçili albümdeki tüm şarkıları bir çalma listesine ekle"
+
+#: ../plugin.py:1851 ../plugin.py:1861
+msgid "Add all songs from selected artist to a playlist"
+msgstr "Seçili sanatçının tüm şarkılarını bir çalma listesine ekle"
+
+#: ../plugin.py:1865
+msgid "Add all songs from selected genre to a playlist"
+msgstr "Seçili türdeki tüm şarkıları bir çalma listesine ekle"
+
+#: ../plugin.py:1679
+msgid "Add folder"
+msgstr "Klasör ekle"
+
+#: ../plugin.py:1547
+msgid "Add music files or playlist"
+msgstr "Müzik dosyası veya çalma listesi ekle"
+
+#: ../plugin.py:172
+msgid "Add music files to music library"
+msgstr "Müzik kütüphanesine müzik dosyaları ekle"
+
+#: ../plugin.py:1847
+msgid "Add selected song to a playlist"
+msgstr "Seçili şarkıyı bir çalma listesine ekle"
+
+#: ../plugin.py:3149
+msgid "Album"
+msgstr "Albüm"
+
+#: ../plugin.py:2550
+#, python-format
+msgid "Album (%s) -> Song List"
+msgstr "Albüm (%s) -> Şarkı listesi"
+
+#: ../plugin.py:3149
+msgid "Album artist"
+msgstr "Albüm sanatçısı"
+
+#: ../plugin.py:2580
+#, python-format
+msgid "Albums (%d)"
+msgstr "Albümler (%d)"
+
+#: ../plugin.py:2655
+msgid "Albums List"
+msgstr "Albüm listesi"
+
+#: ../plugin.py:2298
+msgid "All Artists"
+msgstr "Tüm sanatçılar"
+
+#: ../plugin.py:2381
+msgid "All Songs"
+msgstr "Tüm şarkılar"
+
+#: ../plugin.py:1356 ../plugin.py:1434
+msgid "All tags"
+msgstr "Tüm etiketler"
+
+#: ../plugin.py:3271
+msgid "Append"
+msgstr "Sona ekle"
+
+#: ../plugin.py:1854
+msgid "Append file to current playing songlist"
+msgstr "Dosyayı çalınan şarkı listesinin sonuna ekle"
+
+#: ../plugin.py:3149
+msgid "Artist"
+msgstr "Sanatçı"
+
+#: ../plugin.py:2641
+#, python-format
+msgid "Artist (%s) -> Album List"
+msgstr "Sanatçı (%s) -> Albüm listesi"
+
+#: ../plugin.py:2503
+#, python-format
+msgid "Artist (%s) -> Song List"
+msgstr "Sanatçı (%s) -> Şarkı listesi"
+
+#: ../plugin.py:2576
+#, python-format
+msgid "Artists (%d)"
+msgstr "Sanatçılar (%d)"
+
+#: ../plugin.py:2601
+msgid "Artists List"
+msgstr "Sanatçı listesi"
+
+#: ../plugin.py:1542
+msgid ""
+"CUE sheets can be played, but their track positions cannot be reordered or "
+"merged. Load a regular playlist to edit it."
+msgstr ""
+"CUE dosyaları çalınabilir, ancak parça konumları yeniden sıralanamaz veya "
+"birleştirilemez. Düzenlemek için normal bir çalma listesi yükleyin."
+
+#: ../plugin.py:1616
+msgid "CUE sheets cannot be merged with other playlists"
+msgstr "CUE dosyaları diğer çalma listeleriyle birleştirilemez"
+
+#: ../plugin.py:1630
+msgid "CUE track positions cannot be saved in MediaPlayer playlists"
+msgstr "CUE parça konumları MediaPlayer çalma listelerine kaydedilemez"
+
+#: ../plugin.py:184 ../plugin.py:1504 ../plugin.py:1679 ../plugin.py:3077
+msgid "Cancel"
+msgstr "İptal"
+
+#: ../plugin.py:1884
+#, python-format
+msgid "Cannot open editor: %s"
+msgstr "Düzenleyici açılamıyor: %s"
+
+#: ../plugin.py:1624 ../plugin.py:3342 ../plugin.py:3349 ../plugin.py:3356
+#: ../plugin.py:3394
+#, python-format
+msgid "Cannot read playlist: %s"
+msgstr "Çalma listesi okunamıyor: %s"
+
+#: ../plugin.py:1651
+#, python-format
+msgid "Cannot save playlist: %s"
+msgstr "Çalma listesi kaydedilemiyor: %s"
+
+#: ../plugin.py:3150
+msgid ""
+"Changes affect only the database. A new scan reads the tags from the music "
+"file again."
+msgstr ""
+"Değişiklikler yalnızca veritabanını etkiler. Yeni bir taramada etiketler "
+"müzik dosyasından yeniden okunur."
+
+#: ../plugin.py:1853
+msgid "Clear current songlist and play selected entry"
+msgstr "Geçerli şarkı listesini temizle ve seçili öğeyi çal"
+
+#: ../plugin.py:1549
+msgid "Clear playlist"
+msgstr "Çalma listesini temizle"
+
+#: ../plugin.py:1580
+msgid "Clear the playlist? Music files will be kept."
+msgstr "Çalma listesi temizlensin mi? Müzik dosyaları korunacaktır."
+
+#: ../plugin.py:185 ../plugin.py:819 ../plugin.py:1354 ../plugin.py:2557
+#: ../plugin.py:3268
+msgid "Close"
+msgstr "Kapat"
+
+#: ../plugin.py:3149
+msgid "Comment"
+msgstr "Yorum"
+
+#: ../plugin.py:3149
+msgid "Composer"
+msgstr "Besteci"
+
+#: ../plugin.py:1831
+msgid "Configuration"
+msgstr "Yapılandırma"
+
+#: ../plugin.py:3149
+msgid "Copyright"
+msgstr "Telif hakkı"
+
+#: ../plugin.py:3193
+#, python-format
+msgid "Could not save changes: %s"
+msgstr "Değişiklikler kaydedilemedi: %s"
+
+#: ../plugin.py:1116
+msgid "Cover Art Archive / MusicBrainz"
+msgstr "Cover Art Archive / MusicBrainz"
+
+#: ../setup.xml
+msgid "Cover cache folder"
+msgstr "Kapak önbelleği klasörü"
+
+#: ../plugin.py:1097
+msgid "Cover from music folder"
+msgstr "Müzik klasöründeki kapak"
+
+#: ../plugin.py:1836
+msgid "Create new playlist"
+msgstr "Yeni çalma listesi oluştur"
+
+#: ../plugin.py:3206
+msgid "Database"
+msgstr "Veritabanı"
+
+#: ../plugin.py:158
+#, python-format
+msgid "Database error: %s"
+msgstr "Veritabanı hatası: %s"
+
+#: ../plugin.py:1859
+msgid "Delete selected playlist"
+msgstr "Seçili çalma listesini sil"
+
+#: ../plugin.py:1845
+msgid "Delete song from current playlist"
+msgstr "Şarkıyı geçerli çalma listesinden sil"
+
+#: ../plugin.py:1852
+msgid "Delete song from database"
+msgstr "Şarkıyı veritabanından sil"
+
+#: ../plugin.py:1072
+#, python-format
+msgid "Disc %s"
+msgstr "Disk %s"
+
+#: ../plugin.py:3149
+msgid "Disc number"
+msgstr "Disk numarası"
+
+#: ../plugin.py:1532
+msgid "Discard unsaved playlist changes?"
+msgstr "Çalma listesindeki kaydedilmemiş değişikliklerden vazgeçilsin mi?"
+
+#: ../plugin.py:1953
+msgid "Do you really want to add all songs from that album to a playlist?"
+msgstr ""
+"Bu albümdeki tüm şarkıları bir çalma listesine eklemek istediğinizden emin "
+"misiniz?"
+
+#: ../plugin.py:1936
+msgid "Do you really want to add all songs from that artist to a playlist?"
+msgstr ""
+"Bu sanatçının tüm şarkılarını bir çalma listesine eklemek istediğinizden "
+"emin misiniz?"
+
+#: ../plugin.py:1919
+msgid "Do you really want to add all songs from that genre to a playlist?"
+msgstr ""
+"Bu türdeki tüm şarkıları bir çalma listesine eklemek istediğinizden emin "
+"misiniz?"
+
+#: ../plugin.py:1990
+msgid "Do you really want to delete that song from the database?"
+msgstr "Bu şarkıyı veritabanından silmek istediğinizden emin misiniz?"
+
+#: ../plugin.py:1979
+msgid "Do you really want to delete that song the current playlist?"
+msgstr ""
+"Bu şarkıyı geçerli çalma listesinden silmek istediğinizden emin misiniz?"
+
+#: ../plugin.py:1967
+msgid "Do you really want to delete the current playlist?"
+msgstr "Geçerli çalma listesini silmek istediğinizden emin misiniz?"
+
+#: ../setup.xml
+msgid "Download missing covers"
+msgstr "Eksik kapakları indir"
+
+#: ../setup.xml
+msgid "Downloaded covers are stored here and remain available after a reboot."
+msgstr ""
+"İndirilen kapaklar burada saklanır ve yeniden başlatma sonrasında da "
+"kullanılabilir."
+
+#: ../plugin.py:1842 ../plugin.py:3144
+msgid "Edit MP3 tags"
+msgstr "MP3 etiketlerini düzenle"
+
+#: ../plugin.py:1840 ../plugin.py:3144
+msgid "Edit database entry"
+msgstr "Veritabanı kaydını düzenle"
+
+#: ../plugin.py:1550
+msgid "Edit playlist"
+msgstr "Çalma listesini düzenle"
+
+#: ../skin/skin.xml
+msgid "Edit tags"
+msgstr "Etiketleri düzenle"
+
+#: ../plugin.py:1094
+msgid "Embedded cover"
+msgstr "Gömülü kapak"
+
+#: ../plugin.py:1720
+msgid "Enter a filename ending in .e2pls or .m3u, without folder separators."
+msgstr ""
+"Klasör ayırıcıları içermeyen, .e2pls veya .m3u uzantılı bir dosya adı girin."
+
+#: ../plugin.py:2020
+msgid "Enter name for playlist"
+msgstr "Çalma listesi için bir ad girin"
+
+#: ../plugin.py:2039
+msgid "Enter search text"
+msgstr "Aranacak metni girin"
+
+#: ../setup.xml
+msgid "Filebrowser startup path"
+msgstr "Dosya tarayıcısının başlangıç yolu"
+
+#: ../plugin.py:3526
+#, python-format
+msgid "Filelist: %s"
+msgstr "Dosya listesi: %s"
+
+#: ../plugin.py:3149
+msgid "Genre"
+msgstr "Tür"
+
+#: ../plugin.py:2282
+#, python-format
+msgid "Genre (%s) -> Song List"
+msgstr "Tür (%s) -> Şarkı listesi"
+
+#: ../plugin.py:2225
+msgid "Genre List"
+msgstr "Tür listesi"
+
+#: ../plugin.py:2588
+#, python-format
+msgid "Genres (%d)"
+msgstr "Türler (%d)"
+
+#: ../plugin.py:1856
+msgid "Insert file to current playing songlist and play next"
+msgstr "Dosyayı çalınan şarkı listesine ekle ve sıradaki şarkı olarak çal"
+
+#: ../plugin.py:1413
+msgid "Instrumental — no lyrics"
+msgstr "Enstrümantal — şarkı sözü yok"
+
+#: ../plugin.py:3112 ../plugin.py:3525
+msgid "Invalid Location"
+msgstr "Geçersiz konum"
+
+#: ../plugin.py:392 ../plugin.py:810 ../plugin.py:3579 ../plugin.py:3584
+#: ../plugin.py:3586 ../plugin.py:3587 ../display.py:39 ../display.py:99
+#: ../display.py:112 ../skin/skin.xml
+msgid "Jukebox"
+msgstr "Jukebox"
+
+#: ../plugin.py:1779 ../plugin.py:2564 ../skin/skin.xml
+msgid "Jukebox Library"
+msgstr "Jukebox kütüphanesi"
+
+#: ../skin/skin.xml ../setup.xml
+msgid "Jukebox Setup"
+msgstr "Jukebox ayarları"
+
+#: ../plugin.py:460
+msgid "Jukebox TV"
+msgstr "Jukebox TV"
+
+#: ../plugin.py:1418
+msgid "LRCLIB"
+msgstr "LRCLIB"
+
+#: ../plugin.py:1418
+msgid "LRCLIB (cache)"
+msgstr "LRCLIB (önbellek)"
+
+#: ../plugin.py:1504 ../plugin.py:1679
+msgid "Load"
+msgstr "Yükle"
+
+#: ../plugin.py:1672
+msgid "Load playlist"
+msgstr "Çalma listesi yükle"
+
+#: ../setup.xml
+msgid ""
+"Look up missing lyrics on LRCLIB using artist, title, album and duration. "
+"Results are cached in the music database folder; music files are not "
+"changed."
+msgstr ""
+"Eksik şarkı sözlerini sanatçı, şarkı adı, albüm ve süre bilgilerini "
+"kullanarak LRCLIB üzerinde arar. Sonuçlar müzik veritabanı klasöründe "
+"önbelleğe alınır; müzik dosyaları değiştirilmez."
+
+#: ../plugin.py:1355 ../plugin.py:1381
+msgid "Lyrics"
+msgstr "Şarkı sözleri"
+
+#: ../plugin.py:1843
+msgid "Lyrics / Tags"
+msgstr "Şarkı sözleri / Etiketler"
+
+#: ../plugin.py:1394 ../plugin.py:1419
+msgid "Lyrics without timestamps"
+msgstr "Zaman damgası olmayan şarkı sözleri"
+
+#: ../plugin.py:2805
+msgid "MENU: Edit database"
+msgstr "MENU: Veritabanını düzenle"
+
+#: ../plugin.py:1501
+msgid "MENU: Edit · CH+/CH−: Move"
+msgstr "MENU: Düzenle · CH+/CH−: Taşı"
+
+#: ../plugin.py:2805
+msgid "MENU: MP3 tags / Database"
+msgstr "MENU: MP3 etiketleri / Veritabanı"
+
+#: ../plugin.py:1780 ../plugin.py:2807
+msgid "MENU: Options"
+msgstr "MENU: Seçenekler"
+
+#: ../plugin.py:3193
+#, python-format
+msgid "MP3 tags were saved, but the database could not be updated: %s"
+msgstr "MP3 etiketleri kaydedildi, ancak veritabanı güncellenemedi: %s"
+
+#: ../plugin.py:2290
+msgid "Main Menu"
+msgstr "Ana menü"
+
+#: ../plugin.py:1679
+msgid "MediaPlayer"
+msgstr "MediaPlayer"
+
+#: ../plugin.py:1549
+msgid "Move down"
+msgstr "Aşağı taşı"
+
+#: ../plugin.py:1549
+msgid "Move up"
+msgstr "Yukarı taşı"
+
+#: ../plugin.py:1679
+msgid "Music folder"
+msgstr "Müzik klasörü"
+
+#: ../plugin.py:3584 ../plugin.py:3586 ../plugin.py:3587
+msgid "Music player and database"
+msgstr "Müzik çalar ve veritabanı"
+
+#: ../plugin.py:393 ../plugin.py:811
+msgid "NOW PLAYING"
+msgstr "ŞİMDİ ÇALAN"
+
+#: ../plugin.py:1109
+msgid "No cover available"
+msgstr "Kapak yok"
+
+#: ../plugin.py:1392
+msgid "No lyrics found"
+msgstr "Şarkı sözleri bulunamadı"
+
+#: ../plugin.py:1415
+msgid "No matching lyrics available"
+msgstr "Eşleşen şarkı sözleri yok"
+
+#: ../plugin.py:3376 ../plugin.py:3417
+msgid "No music files found!"
+msgstr "Müzik dosyası bulunamadı!"
+
+#: ../plugin.py:1120
+msgid "No online cover found"
+msgstr "İnternette kapak bulunamadı"
+
+#: ../plugin.py:1613 ../plugin.py:3397
+msgid "No playable entries found"
+msgstr "Çalınabilir öğe bulunamadı"
+
+#: ../plugin.py:3078
+msgid "OK"
+msgstr "Tamam"
+
+#: ../plugin.py:1415
+msgid "Online lyrics unavailable. Press green to retry."
+msgstr ""
+"Çevrimiçi şarkı sözlerine ulaşılamıyor. Yeniden denemek için yeşil tuşa "
+"basın."
+
+#: ../plugin.py:2558
+msgid "Open"
+msgstr "Aç"
+
+#: ../plugin.py:1637
+#, python-format
+msgid "Overwrite playlist %s?"
+msgstr "%s çalma listesinin üzerine yazılsın mı?"
+
+#: ../plugin.py:821 ../plugin.py:1149 ../plugin.py:1353 ../plugin.py:1479
+msgid "Pause"
+msgstr "Duraklat"
+
+#: ../plugin.py:814 ../plugin.py:820 ../plugin.py:1149 ../plugin.py:1479
+#: ../plugin.py:1504 ../plugin.py:2294
+msgid "Play"
+msgstr "Çal"
+
+#: ../plugin.py:3269
+msgid "Play folder"
+msgstr "Klasörü çal"
+
+#: ../setup.xml
+msgid "Play last used songlist after starting"
+msgstr "Başlangıçta son kullanılan şarkı listesini çal"
+
+#: ../plugin.py:3270
+msgid "Play next"
+msgstr "Sıradakini çal"
+
+#: ../plugin.py:2211
+#, python-format
+msgid "Playlist (%s) -> Song List"
+msgstr "Çalma listesi (%s) -> Şarkı listesi"
+
+#: ../plugin.py:1499 ../plugin.py:1500 ../skin/skin.xml
+msgid "Playlist editor"
+msgstr "Çalma listesi düzenleyicisi"
+
+#: ../plugin.py:1709
+msgid "Playlist filename (.e2pls or .m3u)"
+msgstr "Çalma listesi dosya adı (.e2pls veya .m3u)"
+
+#: ../plugin.py:1622
+#, python-format
+msgid "Playlist: %s"
+msgstr "Çalma listesi: %s"
+
+#: ../plugin.py:2154 ../skin/skin.xml
+msgid "Playlists"
+msgstr "Çalma listeleri"
+
+#: ../plugin.py:2572
+#, python-format
+msgid "Playlists (%d)"
+msgstr "Çalma listeleri (%d)"
+
+#: ../setup.xml
+msgid "Press OK to choose the music folder."
+msgstr "Müzik klasörünü seçmek için OK tuşuna basın."
+
+#: ../setup.xml
+msgid "Press OK to select a writable folder for the music database."
+msgstr ""
+"Müzik veritabanı için yazılabilir bir klasör seçmek üzere OK tuşuna basın."
+
+#: ../plugin.py:153
+msgid ""
+"Process aborted.\n"
+" 0 files added to database!\n"
+"Press OK to close."
+msgstr ""
+"İşlem iptal edildi.\n"
+" Veritabanına 0 dosya eklendi!\n"
+"Kapatmak için OK tuşuna basın."
+
+#: ../setup.xml
+msgid "Remember last path of filebrowser"
+msgstr "Dosya tarayıcısında son kullanılan yolu hatırla"
+
+#: ../plugin.py:1549
+msgid "Remove selected entry"
+msgstr "Seçili öğeyi kaldır"
+
+#: ../plugin.py:1150
+msgid "Repeat"
+msgstr "Tekrarla"
+
+#: ../plugin.py:1278
+msgid "Repeat is not available yet with cue-files!"
+msgstr "CUE dosyalarında tekrarlama henüz kullanılamıyor!"
+
+#: ../plugin.py:1594
+msgid "Replace unsaved playlist changes?"
+msgstr "Çalma listesindeki kaydedilmemiş değişikliklerin üzerine yazılsın mı?"
+
+#: ../setup.xml
+msgid "Resume the saved playlist when opening the player."
+msgstr "Oynatıcı açıldığında kaydedilmiş çalma listesini sürdürür."
+
+#: ../plugin.py:1504
+msgid "Save"
+msgstr "Kaydet"
+
+#: ../plugin.py:1679
+msgid "Save here"
+msgstr "Buraya kaydet"
+
+#: ../plugin.py:1672
+msgid "Save playlist"
+msgstr "Çalma listesini kaydet"
+
+#: ../plugin.py:3208 ../plugin.py:3209
+msgid "Save settings and open the database"
+msgstr "Ayarları kaydet ve veritabanını aç"
+
+#: ../plugin.py:3150
+msgid ""
+"Save writes changed MP3 tags and updates this database entry. Other tags "
+"and cover art are preserved."
+msgstr ""
+"Kaydetme işlemi, değiştirilen MP3 etiketlerini dosyaya yazar ve bu "
+"veritabanı kaydını günceller. Diğer etiketler ve kapak resmi korunur."
+
+#: ../plugin.py:1649
+#, python-format
+msgid "Saved playlist: %s"
+msgstr "Kaydedilen çalma listesi: %s"
+
+#: ../plugin.py:3173
+msgid "Saving…"
+msgstr "Kaydediliyor…"
+
+#: ../plugin.py:2560 ../skin/skin.xml
+msgid "Scan music"
+msgstr "Müzik tara"
+
+#: ../plugin.py:1834
+msgid "Scan path for music files and add them to database"
+msgstr "Belirtilen yoldaki müzik dosyalarını tara ve veritabanına ekle"
+
+#: ../setup.xml
+msgid ""
+"Search MusicBrainz and the Cover Art Archive using artist and album tags. "
+"Music files are never modified."
+msgstr ""
+"Sanatçı ve albüm etiketlerini kullanarak MusicBrainz ve Cover Art Archive "
+"üzerinde arama yapar. Müzik dosyaları hiçbir zaman değiştirilmez."
+
+#: ../plugin.py:1832
+msgid "Search in music library"
+msgstr "Müzik kütüphanesinde ara"
+
+#: ../setup.xml
+msgid "Search online for missing lyrics"
+msgstr "Eksik şarkı sözlerini internette ara"
+
+#: ../plugin.py:2053
+#, python-format
+msgid "Search results for \"%s\" in all albums"
+msgstr "Tüm albümlerde \"%s\" için arama sonuçları"
+
+#: ../plugin.py:2050
+#, python-format
+msgid "Search results for \"%s\" in all artists"
+msgstr "Tüm sanatçılarda \"%s\" için arama sonuçları"
+
+#: ../plugin.py:2047
+#, python-format
+msgid "Search results for \"%s\" in all titles"
+msgstr "Tüm şarkı adlarında \"%s\" için arama sonuçları"
+
+#: ../plugin.py:2057
+#, python-format
+msgid "Search results for \"%s\" in title, artist or album"
+msgstr "Şarkı adı, sanatçı veya albümde \"%s\" için arama sonuçları"
+
+#: ../plugin.py:1104
+msgid "Searching for cover…"
+msgstr "Kapak aranıyor…"
+
+#: ../plugin.py:1396
+msgid "Searching for lyrics…"
+msgstr "Şarkı sözleri aranıyor…"
+
+#: ../plugin.py:1695
+msgid "Select a folder"
+msgstr "Bir klasör seçin"
+
+#: ../plugin.py:3067 ../skin/skin.xml
+msgid "Select path"
+msgstr "Yol seçin"
+
+#: ../plugin.py:2559
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ../plugin.py:2302
+msgid "Show Album"
+msgstr "Albümü göster"
+
+#: ../setup.xml
+msgid "Show Jukebox in extensions menu"
+msgstr "Jukebox'ı uzantılar menüsünde göster"
+
+#: ../setup.xml
+msgid "Show Jukebox in main menu"
+msgstr "Jukebox'ı ana menüde göster"
+
+#: ../setup.xml
+msgid "Show cover art"
+msgstr "Kapak resmini göster"
+
+#: ../setup.xml
+msgid ""
+"Show embedded artwork, images in the music folder and downloaded album "
+"covers."
+msgstr ""
+"Gömülü resimleri, müzik klasöründeki resimleri ve indirilen albüm "
+"kapaklarını gösterir."
+
+#: ../plugin.py:1150
+msgid "Shuffle"
+msgstr "Karışık çal"
+
+#: ../plugin.py:1263
+msgid "Shuffle is not available yet with cue-files!"
+msgstr "CUE dosyalarında karışık çalma henüz kullanılamıyor!"
+
+#: ../plugin.py:2584
+#, python-format
+msgid "Songs (%d)"
+msgstr "Şarkılar (%d)"
+
+#: ../plugin.py:1387 ../plugin.py:1419
+msgid "Synchronized lyrics"
+msgstr "Eşzamanlı şarkı sözleri"
+
+#: ../plugin.py:833 ../plugin.py:3272
+msgid "TEXT: Playlist editor"
+msgstr "TEXT: Çalma listesi düzenleyicisi"
+
+#: ../plugin.py:822 ../skin/skin.xml
+msgid "Tags / Lyrics"
+msgstr "Etiketler / Şarkı sözleri"
+
+#: ../plugin.py:1628
+msgid "The playlist is empty"
+msgstr "Çalma listesi boş"
+
+#: ../plugin.py:1826 ../plugin.py:2006
+msgid ""
+"There are no playlists defined.\n"
+"Do you want to create a new playlist?"
+msgstr ""
+"Tanımlanmış çalma listesi yok.\n"
+"Yeni bir çalma listesi oluşturmak ister misiniz?"
+
+#: ../plugin.py:1131
+#, python-format
+msgid "This Receiver can't decode %s streams!"
+msgstr "Bu alıcı %s akışlarının kodunu çözemiyor!"
+
+#: ../plugin.py:3149
+msgid "Title"
+msgstr "Şarkı adı"
+
+#: ../plugin.py:268 ../plugin.py:1071
+#, python-format
+msgid "Track %s"
+msgstr "Parça %s"
+
+#: ../plugin.py:3149
+msgid "Track number"
+msgstr "Parça numarası"
+
+#: ../plugin.py:812
+msgid "UP NEXT"
+msgstr "SIRADAKİ"
+
+#: ../plugin.py:3167
+msgid "Use YYYY, YYYY-MM or YYYY-MM-DD for the date."
+msgstr "Tarih için YYYY, YYYY-MM veya YYYY-MM-DD biçimini kullanın."
+
+#: ../plugin.py:3164
+msgid "Use a number or number/total for track and disc."
+msgstr "Parça ve disk için bir sayı veya sayı/toplam biçimini kullanın."
+
+#: ../setup.xml
+msgid "Wait for screensaver (in min)"
+msgstr "Ekran koruyucu bekleme süresi (dakika)"
+
+#: ../plugin.py:1879 ../plugin.py:3158
+msgid "Wait for the library scan to finish."
+msgstr "Kütüphane taramasının bitmesini bekleyin."
+
+#: ../plugin.py:3149
+msgid "Year / Date"
+msgstr "Yıl / Tarih"
+
+#: ../plugin.py:2159 ../plugin.py:2183 ../plugin.py:2230 ../plugin.py:2254
+#: ../plugin.py:2386 ../plugin.py:2432 ../plugin.py:2476 ../plugin.py:2523
+#: ../plugin.py:2606 ../plugin.py:2628 ../plugin.py:2660
+msgid "[back]"
+msgstr "[geri]"
+
+#: ../setup.xml
+msgid "music library path"
+msgstr "Müzik kütüphanesi yolu"
+
+#: ../plugin.py:2032
+msgid "search for album"
+msgstr "Albüm ara"
+
+#: ../plugin.py:2031
+msgid "search for artist"
+msgstr "Sanatçı ara"
+
+#: ../plugin.py:2030
+msgid "search for title"
+msgstr "Şarkı adı ara"
+
+#: ../plugin.py:2033
+msgid "search in all of them"
+msgstr "Tümünde ara"
